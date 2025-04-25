@@ -8,6 +8,11 @@ namespace inf2_basics {
 int count_less(std::vector<int> v, int x) {
   int result = 0;
   // TODO
+  for (int i = 0; i < v.size();i++){
+    if (v[i] < x){
+      result++;
+    }
+  }
   return result;
 }
 

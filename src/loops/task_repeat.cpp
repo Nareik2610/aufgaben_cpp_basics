@@ -8,6 +8,9 @@ namespace inf2_basics {
 std::vector<int> repeat(int n, int count) {
   std::vector<int> result;
   // TODO
+  for (int i = 0; i  < count ;i++){
+    result.push_back (n);
+  }
   return result;
 }
 
